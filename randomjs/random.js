@@ -3,7 +3,7 @@ var xxxx;
 
 
 
-console.log('xxxxxxxxxx')  
+console.log(xxxx, 'xxxxxxxxxx')  
 
 let cons ; 
 console.log(cons) ;
