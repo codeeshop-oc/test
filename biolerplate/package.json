@@ -2,17 +2,16 @@
   "name": "lint",
   "description": "",
   "version": "1.0.0",
-  "main": "../index.js",
   "scripts": {
-    "lint": "eslint -c .eslintrc.js --ext .js,.vue .",
-    "lint-fix": "eslint -c .eslintrc.js --ext .js,.vue . --fix"
+    "lint": "cd ../ && eslint -c biolerplate/.eslintrc.js --ext .js,.vue .",
+    "lint-fix": "cd ../ && eslint -c biolerplate/.eslintrc.js --ext .js,.vue . --fix"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "lint": "^0.8.19"
+    "lint": "^1.1.2"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.27.5"
