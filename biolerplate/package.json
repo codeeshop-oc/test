@@ -2,7 +2,7 @@
   "name": "lint",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "../index.js",
   "scripts": {
     "lint": "eslint -c .eslintrc.js --ext .js,.vue .",
     "lint-fix": "eslint -c .eslintrc.js --ext .js,.vue . --fix"
